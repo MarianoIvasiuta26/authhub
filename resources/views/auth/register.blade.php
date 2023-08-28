@@ -6,7 +6,6 @@
 
         <x-validation-errors class="mb-4" />
 
-
         <form method="POST" action="{{ route('register') }}" class="w-full max-w-lg mx-auto">
             @csrf
             <div class="flex items-center space-x-4">
@@ -88,9 +87,5 @@
                 </x-button>
             </div>
         </form>
-
-
-
     </x-authentication-card>
 </x-guest-layout>
-
